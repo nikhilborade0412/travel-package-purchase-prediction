@@ -18,7 +18,7 @@ The project uses a trained ML model with preprocessing and an interactive **Stre
 * <a href="#web-application-streamlit">Web Application (Streamlit)</a>
 * <a href="#how-to-run-the-project">How to Run the Project</a>
 * <a href="#results">Results</a>
-* <a href="#future-improvements">Future Improvements</a>
+* <a href="#pridiction-Video">Prediction Video</a>
 * <a href="#author">Author</a>
 
 ---
@@ -186,12 +186,9 @@ streamlit run ml.py
 
 ---
 
-<h2><a class="anchor" id="future-improvements"></a>🚀 Future Improvements</h2>
+<h2><a class="anchor" id="prediction-video"></a>🚀 Prediction Video</h2>
 
-* Feature importance visualization
-* Deployment on Streamlit Cloud
-* CRM system integration
-* User authentication
+https://github.com/nikhilborade0412/travel-package-purchase-prediction/blob/main/video/Travel_Package_ML_Model_APP.mp4
 
 ---
 
