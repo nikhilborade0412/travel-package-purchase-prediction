@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 
 # --------------------------------------------------
@@ -15,32 +15,14 @@ st.set_page_config(
 # Page Headings
 # --------------------------------------------------
 st.title("🌍 Travel Package Purchase Prediction")
-st.subheader("Predict Purchase for New Customer")
+st.caption("Predict Purchase for New Customer")
 st.divider()
-
-
-# --------------------------------------------------
-# Dark Theme Styling
-# --------------------------------------------------
-st.markdown(
-    """
-    <style>
-    body { background-color: #0e1117; color: white; }
-    .stApp { background-color: #0e1117; }
-    h1, h2, h3 { color: white; }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # --------------------------------------------------
 # Load Model & Preprocessor
 # --------------------------------------------------
-with open("pkl/tourism_model.pkl", "rb") as f:
-    model = pickle.load(f)
-
-with open("pkl/preprocessor.pkl", "rb") as f:
-    preprocessor = pickle.load(f)
+model = joblib.load("pkl/tourism_model.joblib")
+preprocessor = joblib.load("pkl/preprocessor.joblib")
 
 # --------------------------------------------------
 # INPUT GRID (3 COLUMNS PER ROW)
@@ -153,7 +135,6 @@ with c:
 # PREDICTION
 # --------------------------------------------------
 if predict_btn:
-    input_df = pd.DataFrame([user_input])
     processed_input = preprocessor.transform(input_df)
     prediction = model.predict(processed_input)[0]
 
