@@ -18,7 +18,6 @@ The project uses a trained ML model with preprocessing and an interactive **Stre
 * <a href="#web-application-streamlit">Web Application (Streamlit)</a>
 * <a href="#how-to-run-the-project">How to Run the Project</a>
 * <a href="#results">Results</a>
-* <a href="#pridiction-Video">Prediction Video</a>
 * <a href="#author">Author</a>
 
 ---
@@ -118,8 +117,10 @@ Travel-Package-Prediction/
 │
 ├── pkl
 │   ├── tourism_model.pkl
-│   └── preprocessor.pkl
-│
+│   ├── preprocessor.pkl
+│   ├── tourism_model.joblib
+|   └── preprocessor.joblib
+|
 ├── README.md
 └── requirements.txt
 ```
@@ -186,11 +187,6 @@ streamlit run ml.py
 
 ---
 
-<h2><a class="anchor" id="prediction-video"></a>🚀 Prediction Video</h2>
-
-https://github.com/nikhilborade0412/travel-package-purchase-prediction/blob/main/video/Travel_Package_ML_Model_APP.mp4
-
----
 
 <h2><a class="anchor" id="author--contact"></a>👤 Author & Contact</h2>
 
