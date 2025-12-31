@@ -1,9 +1,3 @@
-Perfect, Sir 👍
-Below is your **same README content**, **only converted in the SAME HTML–anchor format** (like your Innomatics internship README), while **preserving 100% of the content, wording, and structure**.
-
-You can **directly copy–paste this as `README.md`**.
-
----
 
 # 🌍 Travel Package Purchase Prediction
 
