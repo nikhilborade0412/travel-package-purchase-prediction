@@ -5,6 +5,8 @@
 The project uses a trained ML model with preprocessing and an interactive **Streamlit** interface for real-time predictions.*
 
 ---
+## EDA Dashboard
+[**dashboard**](https://travel-package-purchase-prediction-eda-dashboard.streamlit.app/)
 
 ## 📌 Table of Contents
 
