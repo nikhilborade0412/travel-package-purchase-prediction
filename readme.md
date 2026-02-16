@@ -11,6 +11,7 @@ The project uses a trained ML model with preprocessing and an interactive **Stre
 ## Application Demo
 [**Live Demo**](http://13.235.252.76:8501)
 
+---
 ## 📌 Table of Contents
 
 * <a href="#project-overview">Project Overview</a>
