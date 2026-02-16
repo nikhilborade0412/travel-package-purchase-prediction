@@ -6,8 +6,7 @@ The project uses a trained ML model with preprocessing and an interactive **Stre
 
 ---
 ## EDA Dashboard
-[**dashboard**](https://travel-package-purchase-prediction-eda-dashboard.streamlit.app/) |  
-[**Live Demo**](http://13.235.252.76:8501)
+[**dashboard**](https://travel-package-purchase-prediction-eda-dashboard.streamlit.app/)  |  [**Live Demo**](http://13.235.252.76:8501)
 
 ## 📌 Table of Contents
 
