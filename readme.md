@@ -9,7 +9,7 @@ The project uses a trained ML model with preprocessing and an interactive **Stre
 [**dashboard**](https://travel-package-purchase-prediction-eda-dashboard.streamlit.app/)  
 
 ## Application Demo
-[**Live Demo**](http://13.235.252.76:8501)
+[**Live Demo**](http://98.80.118.6:8501/)
 
 ---
 ## 📌 Table of Contents
